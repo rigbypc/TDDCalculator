@@ -12,7 +12,13 @@ class AppTest {
      * Rigorous Test.
      */
     @Test
-    void testApp() {
-        assertEquals(1, 1);
+    void testAverage() {
+        Calculator calculator;
+
+        calculator.add(1);
+        calculator.add(3);
+        calculator.add(1000);
+
+        assertEquals(334.67, calulator.average());
     }
 }
